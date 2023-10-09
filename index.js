@@ -5,7 +5,7 @@ async function fetchUserData(){
         const data = await response.json();
         return data;
     } catch (error) {
-        console.error('Error fetching data:', error);
+        console.error( error);
         throw error;
     }
 
