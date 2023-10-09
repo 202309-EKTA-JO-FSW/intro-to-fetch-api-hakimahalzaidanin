@@ -40,7 +40,7 @@ console.log(sortedUsers);
 
 // 6
 }catch(error){
-console.error(error);
+console.log(error);
 }
     }}
 
